@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!-- linear layout (inside the scrolling view) is used here because programmatically adding the list item to the screen is
+ needed. and all item will same roughly same size(full width, same height). and we only need to
+ add items one after another. linear layout is a great fit for this case. -->
 <layout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools">

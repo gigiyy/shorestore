@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!-- constraint layout is used to place each element of the list item.
+  it's necessary place them and adjust accordingly later for better UI outlook.
+   and the positioning of the element is more complex than linear layout can handle -->
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
