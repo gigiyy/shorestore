@@ -25,8 +25,8 @@ class MainActivity : AppCompatActivity() {
 
         drawerLayout = binding.drawerLayout
         val navController = findNavController(R.id.nav_host_fragment)
-        appBarConfiguration = AppBarConfiguration(navController.graph)
-        NavigationUI.setupActionBarWithNavController(this, navController)
+        appBarConfiguration = AppBarConfiguration(setOf(R.id.loginFragment, R.id.shoesFragment))
+        NavigationUI.setupActionBarWithNavController(this, navController, appBarConfiguration)
     }
 
     override fun onSupportNavigateUp(): Boolean {
